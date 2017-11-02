@@ -21,6 +21,8 @@ end
 class BottleNumber
   def self.for(number)
 
+    Hash.new(BottleNumber).merge(0 => BottleNumber0, 1 => BottleNumber1)[number].new(number)
+
     begin
       const_get("BottleNumber#{number}")
     rescue NameError
