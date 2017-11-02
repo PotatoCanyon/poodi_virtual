@@ -22,7 +22,7 @@ class BottleNumber
   def self.for(number)
     registry.find {|candidate| candidate.handles?(number)}.new(number)
 
-    @@registry.find {|candidate| candidate.handles?(number)}.new(number)
+    # @@registry.find {|candidate| candidate.handles?(number)}.new(number)
 
     # [BottleNumber1, BottleNumber0, BottleNumber].find {|candidate| candidate.handles?(number)}.new(number)
 
