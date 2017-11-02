@@ -47,6 +47,7 @@ class BottleNumber
   end
 
   def self.inherited(candidate)
+    register(candidate)
     @@registry ||= [BottleNumber]
     @@registry.unshift(candidate)
   end
