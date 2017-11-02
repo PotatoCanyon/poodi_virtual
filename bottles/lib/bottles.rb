@@ -39,6 +39,10 @@ class BottleNumber
     # end.new(number)
   end
 
+  def self.handles?(number)
+    true
+  end
+
   attr_reader :number
   def initialize(number)
     @number = number
