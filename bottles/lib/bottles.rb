@@ -20,6 +20,7 @@ end
 
 class BottleNumber
   def self.for(number)
+    [BottleNumber1, BottleNumber0, BottleNumber].find {|candidate| candidate.handles?(number)}.new(number)
 
     Hash.new(BottleNumber).merge(0 => BottleNumber0, 1 => BottleNumber1)[number].new(number)
 
