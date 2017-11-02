@@ -44,6 +44,11 @@ class BottleNumber
     true
   end
 
+  def self.inherited(candidate)
+    @@registry ||= [BottleNumber]
+    @@registry.unshift(candidate)
+  end
+
   attr_reader :number
   def initialize(number)
     @number = number
