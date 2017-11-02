@@ -48,8 +48,6 @@ class BottleNumber
 
   def self.inherited(candidate)
     register(candidate)
-    @@registry ||= [BottleNumber]
-    @@registry.unshift(candidate)
   end
 
   def self.registry
