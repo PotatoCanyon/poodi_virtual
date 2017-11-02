@@ -55,6 +55,10 @@ class BottleNumber
     @@registry ||= [BottleNumber]
   end
 
+  def self.register(candidate)
+    registry.unshift(candidate)
+  end
+
   attr_reader :number
   def initialize(number)
     @number = number
