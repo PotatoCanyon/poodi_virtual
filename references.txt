@@ -1,0 +1,94 @@
+Things to Read:
+  Refactoring
+    Martin Fowler: Refactoring, Improving the Design of Existing Code, 2nd Ed
+      https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature-dp-0134757599/dp/0134757599/
+
+    Joshua Kerievsky: Refactoring to Patterns
+      http://www.amazon.com/Refactoring-Patterns-Addison-Wesley-Signature-Series-ebook/dp/B001TKD4RQ
+
+  Testing
+    Michael Feathers: Working Effectively With Legacy Code
+      https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052
+
+
+  Patterns
+    Gamma, Helm, Johnson, Vlissides (Gang of Four): Design Patterns,
+    Elements of Reusable Object-Oriented Software
+      http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612
+      Browse the entire book
+
+    Eric Freeman, Elisabeth Robson: Head First Design Patterns, 2nd Ed
+      https://www.amazon.com/Head-First-Design-Patterns-Object-Oriented-dp-149207800X/dp/149207800X/
+      (But only if you can stand the 'Head First' style)
+
+
+  Thinking about objects:
+    Sandi Metz: Practical Object-Oriented Design, 2nd Ed
+      https://www.amazon.com/Practical-Object-Oriented-Design-Agile-Primer-dp-0134456475/dp/0134456475/
+
+    Rebecca Wirfs-Brock, Wilkerson, Wiener: Designing Object-Oriented Software
+      http://www.amazon.com/Designing-Object-Oriented-Software-Rebecca-Wirfs-Brock/dp/0136298257
+      http://www.wirfs-brock.com/PDFs/Characterizing%20Classes.pdf
+
+    Matt Weisfeld, The Object-Oriented Thought Process
+      http://www.amazon.com/Object-Oriented-Thought-Process-Developers-Library/dp/0321861272
+
+    Freeman and Pryce: Growing Object-Oriented Software, Guided by Tests (GOOS)
+      http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627
+
+    Eric Evans: Domain Driven Design
+      http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215
+
+    Domain Driven Design Quickly (pdf)
+      http://www.infoq.com/minibooks/domain-driven-design-quickly
+
+    Vaughn Vernon: Implementing Domain Driven Design
+      http://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577
+
+    David West: Object Thinking
+      https://www.amazon.com/Object-Thinking-Developer-Reference-David/dp/0735619654
+
+
+Things to Watch:
+  Design
+    https://www.youtube.com/watch?v=f5I1iyso29U Sandi Metz, Go Ahead Make a Mess
+    https://www.youtube.com/watch?v=29MAL8pJImQ Sandi Metz, Nothing Is Something
+    https://www.destroyallsoftware.com/talks/boundaries Gary Bernhardt, Boundaries
+    https://www.youtube.com/watch?v=tg5RFeSfBM4 Jim Weirich, Decoupling from Rails
+
+  Refactoring
+    https://www.youtube.com/watch?v=J4dlF0kcThQ Katrina Owen, Therapeutic Refactoring
+    https://www.benorenstein.com/talks/ Refactoring From Good to Great
+
+  Testing
+    https://www.youtube.com/watch?v=URSWYvyc42M Sandi Metz, Magic Tricks of Tests
+    https://www.youtube.com/watch?v=R9FOchgTtLM Gregory Moeck, Why You Don't Get Mocks
+    https://vimeo.com/53276460 Just Searls, Budgeting Reality
+    https://vimeo.com/54198870 Michael Feathers, Testing Revisited
+    https://www.infoq.com/presentations/Mock-Objects-Nat-Pryce-Steve-Freeman/ Steve Freeman, Nate Pryce, Mock Roles
+
+  Pointy Headed
+    https://www.infoq.com/presentations/Simple-Made-Easy/ Rich Hickey, Simple Made Easy
+    https://codon.com/a-lever-for-the-mind Tom Stuart
+
+  Most Fun Ever
+    Guy Steele: Growing A Language
+      https://www.youtube.com/watch?v=_ahvzDzKdB0
+
+  Blog posts:
+  General:
+    http://www.sandimetz.com/blog/
+    https://codeclimate.com/blog/7-ways-to-decompose-fat-activerecord-models Bryan Helmcamp
+    https://codeclimate.com/blog/why-ruby-class-methods-resist-refactoring Bryan Helmcamp
+
+  Transformation Priority Premise
+    http://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html
+
+  Michael Feathers:
+    Tell Above, and Ask Below - Hybridizing OO and Functional Design
+    http://michaelfeathers.typepad.com/michael_feathers_blog/2012/03/tell-above-and-ask-below-hybridizing-oo-and-functional-design.html
+
+
+Tutorials:
+https://online.visual-paradigm.com/diagrams/tutorials/sequence-diagram-tutorial/
+https://creately.com/blog/diagrams/sequence-diagram-tutorial/
