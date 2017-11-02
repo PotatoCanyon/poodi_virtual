@@ -89,6 +89,8 @@ class BottleNumber
 end
 
 class BottleNumber0 < BottleNumber
+  register(self)
+
   def self.handles?(number)
     number == 0
   end
