@@ -23,11 +23,11 @@ class BottleNumber
 
     Hash.new(BottleNumber).merge(0 => BottleNumber0, 1 => BottleNumber1)[number].new(number)
 
-    begin
-      const_get("BottleNumber#{number}")
-    rescue NameError
-      BottleNumber
-    end.new(number)
+    # begin
+    #   const_get("BottleNumber#{number}")
+    # rescue NameError
+    #   BottleNumber
+    # end.new(number)
 
     # case number
     # when 0
