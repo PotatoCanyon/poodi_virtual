@@ -69,6 +69,18 @@ class DescendingVerseSongTest < Minitest::Test
   end
 
   def test_the_whole_song
+    expected =
+      "This is verse 5.\n" +
+      "\n" +
+      "This is verse 4.\n" +
+      "\n" +
+      "This is verse 3.\n" +
+      "\n" +
+    "This is verse 2.\n"
+    assert_equal expected, DescendingVerseSong.new(verse_template: VerseDouble, max: 5, min: 2).song
+  end
+
+  def test_the_whole_song
     expected = <<~SONG
       99 bottles of beer on the wall, 99 bottles of beer.
       Take one down and pass it around, 98 bottles of beer on the wall.
