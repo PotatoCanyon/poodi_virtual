@@ -68,6 +68,7 @@ class BottleNumber
   end
 
   def successor
+    BottleNumber(number - 1)
     BottleNumber.for(number - 1)
   end
 end
