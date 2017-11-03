@@ -45,7 +45,7 @@ end
 
 class VerseDouble
   def self.lyrics(number)
-    new(number).lyrics
+    "This is verse #{number}.\n"
   end
 
   attr_reader :number
