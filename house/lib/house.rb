@@ -35,5 +35,6 @@ class House
       else
         "This is #{phrase(num)}the house that Jack built.\n"
       end
+      "This is #{phrase(num)}the house that Jack built.\n"
     end
   end
