@@ -47,15 +47,6 @@ class VerseDouble
   def self.lyrics(number)
     "This is verse #{number}.\n"
   end
-
-  attr_reader :number
-  def initialize(number)
-    @number = number
-  end
-
-  def lyrics
-    "This is verse #{number}.\n"
-  end
 end
 
 class DescendingVerseSongTest < Minitest::Test
