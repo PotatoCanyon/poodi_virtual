@@ -1,3 +1,10 @@
+class Integer
+  def to_bottle_number
+    BottleNumber.for(self)
+  end
+end
+
+
 class Bottles
   def song
     verses(99, 0)
