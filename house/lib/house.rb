@@ -4,6 +4,8 @@ class House
     end
 
     def phrase(num=1)
+      ["the malt that lay in ", ""].last(num).join("")
+
       if num == 1
         ""
       else
