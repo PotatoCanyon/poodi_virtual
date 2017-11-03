@@ -43,6 +43,17 @@ class BottleVerseTest < Minitest::Test
   end
 end
 
+class VerseDouble
+  attr_reader :number
+  def initialize(number)
+    @number = number
+  end
+
+  def lyrics
+    "This is verse #{number}.\n"
+  end
+end
+
 class DescendingVerseSongTest < Minitest::Test
   def test_a_couple_verses
     expected = "99 bottles of beer on the wall, " +
