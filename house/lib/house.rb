@@ -4,9 +4,12 @@ class House
     end
 
     def phrase(num=1)
-      ["the rat that ate ",
-       "the malt that lay in ",
-       ""].last(num).join("")
+      [ "the cow with the crumpled horn that tossed ",
+        "the dog that worried ",
+        "the cat that killed ",
+        "the rat that ate ",
+        "the malt that lay in ",
+        ""].last(num).join("")
     end
 
     def line(num)
