@@ -4,6 +4,11 @@ class Integer
   end
 end
 
+def BottleNumber(number)
+  return number if number.kind_of?(BottleNumber)
+  BottleNumber.for(number)
+end
+
 
 class Bottles
   def song
