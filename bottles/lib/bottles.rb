@@ -77,6 +77,7 @@ class BottleNumber0 < BottleNumber
   end
 
   def successor
+    99.to_bottle_number
     BottleNumber.for(99)
   end
 end
