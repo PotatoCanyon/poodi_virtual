@@ -1,0 +1,12 @@
+* Make 'the house the Jack built' always be last, shuffle only lines 1-11.
+
+* Mix up actors ('the malt') and actions ('that lay in').
+  Each line has a trailing 'that'.  This final, trailing 'that' separates the actor from the action.
+  This should tip them into extracting the array into it's own class.
+
+# Write tests for the Orderers.
+
+* Simplify the House tests using what you learned from Bottles-extract-verse.
+
+* Mix up actors ('the priest'), modifiers ('all shaven and shorn') and actions ('the married').
+  Not every line has a modifier, assume the modifier is '' if it doesn't exist.

@@ -4,20 +4,6 @@
 
 Create a new repo under TorqueForge following the directions in CLASS_SETUP.md.
 
-Copy the 99Bottles and House exercises to master.
-
-    git checkout master
-
-    git checkout origin/house -- house/
-    git commit -m 'add house exercise'
-
-    git checkout origin/bottles -- bottles/
-    git commit -m 'add bottles exercise'
-
-    git push
-
-This checks a single folder (house/ or bottles/) out of a branch (origin/house or origin/bottles) and places that folder into master, ready to be committed.
-
 ## Prepare the Surveys
 Angela makes them, they're on my google drive under 'Surveys'.
 Each day's survey needs to be checked, and a bitly link must be created for the actual form.
@@ -48,7 +34,7 @@ Show the repo on the projector or write it on the board
 * Warning: YOU'LL NEVER CHECK CODE INTO MASTER OF THIS REPO
 
     for example...
-    https://github.com/torqueforge/backstopsolutions_2014_nov
+    https://github.com/torqueforge/poodnc-2017
 
 * We'll introduce the course in a bit
 * For the next three days you’ll either be working (writing code) or talking to each other
@@ -56,18 +42,11 @@ Show the repo on the projector or write it on the board
 
 
 Who has read the book?
-
 How much Ruby?
 How much TDD?
 How much pairing?
-Who has read the book?
 
-Ask if they have experience pairing.  If they don't, discuss how pairing works.
-Have them put themselves into pairs across Ruby and OOD experience.
-
-If they know one another, they can just do this.
-If they don't know one another, ask them to stand up and arrange themselves in a line based on how much Ruby experience they have.  This is amazingly chaotic, but it works.
-
+Arrange them in a line based on how confident they feel about the book. Pair the head with the tail for the first exercise.
 Once they're paired, get the sanity test running on everyone's machine.
 
 **Say:**
@@ -86,26 +65,21 @@ Once they're paired, get the sanity test running on everyone's machine.
 
 * we have pre-written tests in minitest
 * who has used minittest (no one) (That's okay, it works just like you’d expect)
-* after 30 minutes we will interrupt you
+* after 15 minutes we will interrupt you
 * don't worry about finishing, just write some code to get a sense of the problem
 * THIS IS NOT A TEST
 * YOU WILL NOT FINISH, don't worry, THIS IS NOT A TEST
 * Don't check things into master !!!!
 
-Set the timer for 30 minutes.
-9:15 - 9:45
-UserTesting started at 9:30
+Set the timer for 15 minutes.
+9:20-ish
 
-
-* we interrupted you, that’s frustrating.
-* we are annoying you on purpose
 * we're all about learning theory
 * learning theory says we should take breaks
 * take a break :-)
 
 **BREAK**
-
-10:00am
+10-ish
 
 ## Introduce the course
 
@@ -157,6 +131,7 @@ Once all the goal post-its are up, have them guess the names of the 4 groups, an
 
 
 ## Bottles Show and Tell
+10:45-ish
 
 ***Describe how show and tells work:***
 
@@ -165,7 +140,6 @@ Once all the goal post-its are up, have them guess the names of the 4 groups, an
 * if someone has already shown a solution like yours, you don't have to show
 * if you're showing, your job is to finish within 5 minutes
 * if you're watching, your job is to applaud wildly when timer goes off
-
 
 ### During Bottles Show and Tell
 
@@ -184,38 +158,17 @@ Once all the goal post-its are up, have them guess the names of the 4 groups, an
 
 ### Post Bottles Show and Tell
 
-* Bottles was hard and you didn't finish
-* Save your code in a branch
+They might put evil pair code in #verse, #verses and #song to pass the tests.  If so, ask:
+
+* What responsibility does #verse have? (produce any verse)
+* What about #verses?  (call #verse for any range of verse numbers, or produce all the verses?)
+* What about #song?
+
+Only #verse is responsible for producing a verse, the other methods are responsible for algorithms.
+
 * DON'T CHECK CODE INTO MASTER
-* We're going to learn some new techniques
-* We'll return to bottles in a bit and apply the new techniques
-* We'll learn on a simpler example.
-* On to 'The House That Jack Built'
 
-**BREAK**
-
-## House
-
-### House, Shameless Green
-
-The ```House``` exercise is already in master.
-
-***Say:***
-
-    cd house
-    ruby test/house_test.rb
-
-* same deal as before, unskip the tests one by one
-* strive for the shameless green (whatever that is!)
-* you only get 10 minutes
-* copy and paste is your friend
-* after 5 minutes, ask them "Are you gonna be done? If not, change strategies."
-
-
-
-### House, Shameless Green
-
-Define shameless green
+## Define shameless green
 
 * Intersection of maximum comprehensibility with minimum complexity
 * Maximize comprehension, don't worry about changeability
@@ -226,60 +179,31 @@ Define shameless green
 * Collects maximum information (all tests green) before creating complicated abstractions
 * Be brave (if you wrote it) and admiring (if you're looking at someone else's code)
 
+***Ask:***
 
-Repeat the Bottles Retrospective Questions
+* Should we stop here at Bottles Shameless Green?
+* What would justify a change to this code?
+* Introduce 6-packs requirement.
 
-* Did you find this exercise easy or hard?
-* Are you proud or embarrassed about your code?
-* Did you finish? (your solution is too complicated)
-* Is your code understandable (would it pass the inebriation test?)
-* Is this solution more complicated or simpler than the previous one?
-* How did you decide what code to write? (I saw a pattern and I went there. What if you don’t see a pattern?)
-* What force drove you to make these decisions?
-* For production, would it look like this?
-* Is there complexity here that the test did not force you to implement?
+***Things you might discuss:***
 
-By the end of Show & Tell, they should have picked a winner for Shameless Green.
+When you start the statement with “if you want to change…” you know you’re guessing.
 
-**LUNCH**
+This makes assumptions about the kinds of changes that are going to come, but we never know.
 
-### House, Shameless to DRY
+What kinds of changes might occur that this code can't easily handle?
 
-***Prep***
+If I wait until I have the next requirement to refactor, will it cost more, or less?
 
-Push a version of House Shameless Green to master.  This can be one of the ones they just wrote, or mine.  To get mine:
-
-    git checkout master
-    git checkout origin/house_1_shameless -- house/
-    git commit -m 'shameless house'
-    git push origin master
-
-Ask for a volunteer to type. Have them do a ```git pull``` and tell them you'll need them to hook up to the projector in just a minute.
-
-###### Shameless Green is Good Enough
-
-**Ask:**
-
-  * What does shameless green reveal about the domain of House?
-    (There are 12 cases/lines)
-
-  * What is the algorithm for building a line?
-    (It's cumulative, but you can't tell from the code.)
-
-  * What annoys you most about this code?
-    (The duplication of strings.)
-
-Discuss if they should check it in and walk away.
-They need a requirements change to force them to improve the code.
+There is a place to guess. We want exemplary code. If I have experience that tells me that this customer will want x, y, z, then I might be justified to make the guess IF a novice programmer is coming behind me. If it’s me who’s coming behind, then I can just do it when I ask.
 
 
-###### House Requirements Change
 
-The customer wants to vary new phrase bits into the algorithm.
+## Introduce 6-pack Requirment
 
-Now the bar is raised.  Things that change, do.  This means that what's okay for shameless green is not okay now that the code has begun to change.
+6-packs
 
-##### Talk about open/closed.
+### Talk about open/closed.
 
 * Ask them what the O in SOLID stands for (Open/Closed)
 * Ask them what Open/Closed is short for. (Open for extension/Closed for Modification)
@@ -287,7 +211,6 @@ Now the bar is raised.  Things that change, do.  This means that what's okay for
 * Ask them to imagine a world in which you never have to change existing code to implement new behavior.
 * Don't worry that this seems impossible, just pretend for a minute that it's true.
 * If it's true, what are the consequences?
-
 
 Make sure they say:
 _If my code where open/closed:
@@ -311,15 +234,16 @@ You should deal with new requirements in two steps.
 #### Flowchart for dealing with a new requirement
 
 Questions they should ask when thinking about a new requirement:
-
-**POSTER!**
+**Make POSTER from instructor_docs/open_closed.png**
 
   * Flowchart questions:
     * is this code open/closed to new requirement
     * do you know how to make it open/closed
     * fix the most approachable code smell
 
-For House Shameless:
+And/or post instructor\_docs/open\_closed.png into Slack
+
+#### Code Smells
 
   * What's a "Code Smell"?
   (a sign that something might be wrong)
@@ -335,8 +259,8 @@ For House Shameless:
 #### How to Refactor
 This is the start of DRYing out the strings using a very specific refactoring technique.
 
-##### The specific plan
-**POSTER!**
+##### The Flocking Rules
+**Make POSTER from instructor_docs/flocking_rules.txt**
 
 1) find the things that are most alike
 2) find the smallest difference between them
@@ -350,7 +274,7 @@ try to make changes only on a single line of code
 run the tests after each change
 if the tests fail, undo and make a better change
 
-Simple rules.  Like flocking or schooling rules, seemingly complex behavior emerges.
+These are simple rules, from which complex behavior emerges.
 
 ##### Other things to say
 Never chase after red; if the tests fail, undo and make a change that leaves the tests green.
@@ -361,7 +285,18 @@ Don't get distracted by strings that are the same, instead identify and remove s
 
 Do complete 'horizontal' refactorings before switching to a 'vertical' path. This means that once you pick two strings and start making them the same, you should finish this entirely before getting distracted by a third string, no matter how much that other string calls out to you.
 
-#### Mob DRYing out strings in House
+**Day 1 Lunch**
+
+Repo Prep:
+
+    git checkout master
+    git checkout origin/bottles_1_shameless -- bottles/
+    git commit -m 'shameless bottles'
+    git push origin master
+
+
+
+## Bottles, Mob DRYing out strings
 
 Get the volunteer typist hooked up to the monitor.
 
@@ -371,26 +306,26 @@ Tell the class NOT to work along on their own computers.  Right now they should 
 
 To get everyone to talk, consider asking one small group (3-4 folks) at a time to be responsible for making the next suggestion.  Given them some sort of token to hold when it's their turn, and let them decide who gets the token next.
 
+***Reset their context***
+
+Remind them that writing new code using tests means writing code under red, and refactoring means making 1 lines changes under green.  These are different modes.  We're about to refactor Bottles Shameless Green, so we're in 'refactor' mode.
+
 Move to the back of the room and help them get started.  Ask:
 
   * Which cases are most alike?
-    They should choose line 1 and line 2.
+    They should choose else and 2.
   * What is the smallest difference between them?
-    '' (empty string) versus 'the malt that lay in '
+    Make them start with the 1st char.
   * What is the smallest change that will remove the difference?
-    If these two things represent the same concept, I should name the concept, and then send a message in this place.
-  * What is the concept?
-    phrase
-  * Okay, create a #phrase method.
-  * What should it return?
+    2 -> #{number}
+  * etc
 
-Here they always pick
+***As they mob this***
 
-    'the malt that lay in '
-
-because they can't wrap their heads around ''.  Just run with it.  See the refactorings in the branches of the repo for the steps.
-
-Make them mob all the way through DRYing out the House strings.  
+  * point out that the flocking rules cause you to write methods that are mini examples of open/closed.  We put 'if' statements in the methods to make the methods 'open' to use in new places.
+  * remember that they'll encounter a Liskov violation when they try to send capitalize to #amount so that, in the 0 case, 'no more' will turn into 'No more'.  They should send #to_s to the number inside of the #amount method.  The method should return a trustworthy object; it should return something that understands #capitalize.
+  * when extracting a method, they'll occasionally choose the non-else case as the first thing they return.  This requires that they use a real value (not :fixme) as the default for the parameter.  Give them time to understand this.
+  * Many times they can make things the same by using a no-op.  This is an important idea.  The _concept_ exists, even if it can sometimes be implemented as a no-op.
 
 Things you might ask afterwards:
 
@@ -409,168 +344,13 @@ Remind them:
 
 
 
-### House, They do Shameless to DRY
-2:00PM
-UserTesting at 1:30PM
-uminn2 at 2:3PM
-POODGATE at 2:00
+## Bottles, They DRY out strings
+
+2:10-ish
 
 SWITCH PAIRS
 
-Have them ```git pull``` and do House Shameless to DRY in pairs
-
-Discuss their experience.  Was it easy or hard?  Scary or safe?
-
-Tell them:
-
- * put this problem away, it'll return on the afternoon of day 3.  
- * now we'll return to Bottles and find Shameless Green and then apply these refactoring rules to see what happens.
-
-
-## 99 Bottles, Rodux
-2:45 at MDLive
-
-### 99 Bottles, Shameless Green
-
-***Say:***
-
-* commit outstanding work to a branch
-* cd bottles
-* start over and write bottles shameless green
-* you get 15 minutes
-* remember how well copy/paste worked for House
-
-At the 10 minute mark, ask if they'll be done.  If some say no, ask how much more time they need and add that amount to the timer.
-
-### 99 Bottles, Shameless Green
-
-They might put evil pair code in #verse, #verses and #song to pass the tests.  If so, ask:
-
-* What responsibility does #verse have? (produce any verse)
-* What about #verses?  (call #verse for any range of verse numbers, or produce all the verses?)
-* What about #song?
-
-Only #verse is responsible for producing a verse, the other methods are responsible for algorithms.
-
-Ask these questions:
-
-* how many verse variants are there?
-* which verses are most alike?
-* which are different?
-* in what way?
-* what's the algorithm for looping?
-
-***Ask:***
-
-* Is Shameless Green  production ready? (if it’s never going to change, then of course!)
-
-***Things you might discuss:***
-
-When you start the statement with “if you want to change…” you know you’re guessing.
-
-This makes assumptions about the kinds of changes that are going to come, but we never know.
-
-What kinds of changes might occur that this code can't easily handle?
-
-If I wait until I have the next requirement to refactor, will it cost more, or less?
-
-There is a place to guess. We want exemplary code. If I have experience that tells me that this customer will want x, y, z, then I might be justified to make the guess IF a novice programmer is coming behind me. If it’s me who’s coming behind, then I can just do it when I ask.
-
-Get a Bottles Shameless Green into master.  Either take theirs, or
-
-    git checkout master
-    git checkout origin/bottles_1_shameless -- bottles/
-    git commit -m 'shameless bottles'
-    git push origin master
-
-Whichever you choose, master should now contain a Bottles Shameless green, and tests with no skips.
-
-**BREAK**
-
-### 99 Bottles, Mob Shameless Green to DRY
-3:00pm ish
-
-As break is ending, get another volunteer typist.  Make sure they do a ```git pull```.
-
-
-***ASK:***
-
-* Should we stop here at Bottles Shameless Green?
-* What would justify a change to this code?
-* Introduce 6-packs requirement.
-
-***Reset their context***
-
-Remind them that writing new code using tests means writing code under red, and refactoring means making 1 lines changes under green.  These are different modes.  We're about to refactor Bottles Shameless Green, so we're in 'refactor' mode.
-
-For Bottles Shameless:
-
-  * What is the most approachable sin, i.e.,
-  * What do you hate most, that you actually understand and know immediately how to fix? (duplication of strings)
-  * Okay, then, go fix the string duplication using the flocking rules.
-
-### Bottles, Mob shameless to DRY
-
-Repeat the refactoring rules from before.
-Get the volunteer typist hooked up.
-Don't allow the typist to think.
-Rotate around the room, making small groups responsible for telling the typist the next thing to do.
-
-
-***Say:***
-
-* don't type along; you'll each do this tomorrow morn.
-* if you feel the urge to jump vertically, don't stray from the path, just write your issue down. Make a TODO list if it makes you feel better about not going on a tangent. You can go back to it later.
-
-As they mob this:
-
-  * point out that the flocking rules cause you to write methods that are mini examples of open/closed.  We put 'if' statements in the methods to make the methods 'open' to use in new places.
-  * remember that they'll encounter a Liskov violation when they try to send capitalize to #amount so that, in the 0 case, 'no more' will turn into 'No more'.  They should send #to_s to the number inside of the #amount method.  The method should return a trustworthy object; it should return something that understands #capitalize.
-  * when extracting a method, they'll occasionally choose the non-else case as the first thing they return.  This requires that they use a real value (not :fixme) as the default for the parameter.  Give them time to understand this.
-  * Many times they can make things the same by using a no-op.  This is an important idea.  The _concept_ exists, even if it can sometimes be implemented as a no-op.
-
-
-***OFFICE HOURS***
-
-
-# DAY 2
-
-## Reflect upon day 1
-9:00am
-
-Make sure survey is ok
-Make bit.ly link for survey
-
-* Remind them to pick a different seat
-* Tell them bit.ly link
-
-Give them a few minutes to fill out survey
-Go over survey publicly
-
-Do 'Reflect on What I Learned' posters:
-
-* get in groups of 4 or 5
-(have them count off going around the room, which creates groups made of folks who are sitting far apart)
-* discuss what you learned yesterday
-* take a wall post-it and draw something that represents it, or...
-* classes have done poetry, Ms Manners questions, art, plays, etc.  The bar is high.
-* you get 30 minutes.  You'll run out of ideas at 15 minutes.  Stick with it, the best ideas happen if you persevere. Don't quit and read email at the 16 min mark.
-
-Do reflection presentations
-
-
-***BREAK***
-
-Ask about pairing experience.  Talk about different pairing techniques.
-
-## Bottles, Redux, continued
-
-### 99 Bottles, They do Shameless Green to DRY
-10:45am
-
-Make sure they 'git pull', which should get them the 'Shameless' from which we demoed
-
-***Say:***
+Make sure they ```git pull```
 
 * Do a big re-anchor in context
   * Had Shameless Green
@@ -627,12 +407,17 @@ Even if you don't do a Show & Tell, get them to talk to each other about how it 
 
 
   * what's next?
-    * Flowchart
+    * Repeat Flowchart
         * is the code open to the 6-packs requirement?
         * do you know how to make it open?
         * then fix the most approachable sin
   * what is that sin?
 
+Afterwards, discuss their experience.
+
+2:25-ish
+
+Was it hard or easy to follow the Flocking Rules?  Scary or safe?
 
 #### Characteristics of the DRY Bottles Solution
 
@@ -665,26 +450,19 @@ Yeah, we wish we had a smarter number, and that's the next refactoring.
 
 'number' ought to be a first class object which holds onto a single value of number and implements all those methods; then you wouldn't have to pass the argument around, you could just get the right object and send it a message.
 
-**BREAK**
 
-### 99 Bottles, Mob DRY to Extract class
 
-11:30 so off to lunch at UserTesting
-11:30 at UMinn
+## Bottles, Mob Extract Class
 
-**LUNCH** is very often here
-1:15 at NOTHS (we started at 9:15 and had a 45 minute lunch)
+2:45-ish
 
-Get the correct code into master, either the DRY solution they just created, or the one from the repo.
+Repo Prep:
 
     git checkout master
     git checkout origin/bottles_2_shameless_to_dry -- bottles/
-    git commit -m 'DRY bottles'
+    git commit -m 'shameless bottles'
     git push origin master
 
-Get a new volunteer typist, have them ```git pull```.
-
-This next refactoring is in the bottles\_3\_dry\_to\_bottle\_number branch, but generally you:
 Create an empty class
 Copy the methods to it
 Add an attr_reader and initializer for number
@@ -712,7 +490,6 @@ The #successor method is more interesting to deal with as part of the 'factory' 
   * Don't ignore the simple problems and just to the hard ones.
   * Instead, fix the simple problems and the hard ones disappear.
 
-
 Once Extract Class is done, ask:
 
   * tell me about the shape of the methods.
@@ -733,74 +510,60 @@ Once Extract Class is done, ask:
 * is it open/closed to 6-packs? Do you know how to make it open?
 
 
-### Create SOLID posters
-Create Wall Poster of Extract Class Recipe while they're doing SOLID posters.
 
-2:00pm
+### Bottles, They do Extract Class
 
-Have them count off from 1-5 or S-D (S O L I D)
-give them 35 minutes to take a 5 min break and then do 30 mins research
-have them give 5 minute presentations (this is a great opportunity for them to nourish their inner playwrights)
-Their presentation should include a definition, examples (in code and/or in life) and places in class or in their own applications where they follow/break the rule.
-
-
-
-SOLID isn't so useful, but tell them about Steve Freeman and Nat Pryce's
-  * Loosely Coupled
-  * Highly Cohesive
-  * Easily Composable
-  * Context Independent
-
-
-**SHORT BREAK**
-
-
-### 99 Bottles, They do DRY to Extract class
-
-OCTanner started "They Do Extract Class" at 3:20
+3:45-ish
 
 Make sure they all ```git pull``` before starting.
 
-**POSTER!**
+**Make POSTER from instructor\_docs/poster\_extract\_bottle_number.txt**
 
-  Extract class
+***OFFICE HOURS***
 
-  Create the new class
-    Choose a class name
-    Copy the methods that are obsessing on the primitive
-    Add attr_reader and initializer to save primitive as a bit of data
-
-  Hook the new class into the old
-    In every copied method of old class, forward the message to new class.
-
-  Remove arguments from methods in new class
-    Change the name of the parameter in the new class
-    Remove the argument from the senders one by one
-    Remove the parameter+default
-
-  In #verse
-  Create temp variable for bottle_number and next_bottle_number
-  Use them
-
-  Remove the now obsolete methods from Bottles
-
-  Remove #amount #container data clump by implementing to_s
+4:15-ish
 
 
-### MOB 99 Bottles, Conditional to Polymorphism
 
-3:00pm
 
-If planning to start from my extracted class, be sure you:
+# DAY 2
+
+Repo Prep:
 
     git checkout master
     git checkout origin/bottles_3_dry_to_bottle_number -- bottles/
-    git commit -m 'extracted BottleNumber class'
+    git commit -m 'Extract BottleNumber'
     git push origin master
 
-and then have them
+## Survey
 
-    git pull
+9:00-ish
+
+* Remind them to pick a different seat
+* Tell them bit.ly link for the survey
+* Give them a few minutes to fill out survey
+* Go over survey publicly
+
+## Reflection
+
+9:15-ish
+
+* get in groups of 4 or 5
+(have them count off going around the room, which creates groups made of folks who are sitting far apart)
+* discuss what you learned yesterday
+* take a wall post-it and draw something that represents it, or...
+* classes have done poetry, Ms Manners questions, art, plays, etc.  The bar is high.
+* you get 30 minutes.  You'll run out of ideas at 15 minutes.  Stick with it, the best ideas happen if you persevere. Don't quit and read email at the 16 min mark.
+
+Do reflection presentations
+
+***BREAK***
+
+10:25-ish
+
+### Bottles, Mob conditional to polymorphism, data clump, successor
+
+10:40-ish
 
 Remind them of the current state of the code.  
 
@@ -874,6 +637,87 @@ This is so easy and so satisfying that it's best to do it as a group.
 
 They should first change the tests (we're now back in the red-green-refactor cycle).
 
+### Bottles, They do conditional to polymorphism, data clump, successor
+
+11:40-ish
+
+This seems easy, but they may have trouble with the Factory, and fixing the Liskov violation in the successor method.  Give them lots of help.  You can also identify the folks that get it and have them mentor groups of 3 or 4.
+
+Once they all get through the conditional to polymorphism refactoring...
+
+### Fix the #successor Liskov violation
+  * Move bottle_number_for to BottleNumber.for
+  * Temporarily add `return` to `for` if number is already a BottleNumber
+  * Fix the successor methods to return a BottleNumber-ish
+  * Use successor in Verses last line
+  * delete the temporary return
+Now `verses` does nothing with `number` other than turn it into something else.
+Talk about converting it to the right thing at first chance.
+
+
+**Day 2 Lunch**
+
+
+12:00-ish
+
+Repo Prep:
+
+    git checkout master
+    git checkout origin/bottles_6_successor_liskov -- bottles/
+    git commit -m 'Polymorphic BottleNumbers'
+    git push origin master
+
+## Bottles, Mob Factories, Monkey Patching 
+
+12:45-ish
+
+### Factories
+
+  * Use const_get to make the factory we have open closed
+  * Do factory escalations
+      * What if you want the factory to be open to new subclasses? (metaprogramming, #const_get)
+      * What if you want better names? (Hash, YML, database list)      
+      * What if you want to disperse the logic that chooses the right class into the class that might be chosen (handler pattern)?
+      * What if you want to register classes because of inheritance?
+      * What if you want classes to register themselves?
+
+### Monkey Patch Integer, Add Conversion method on BottleNumber
+  turning 3 dependencies into two
+
+
+**BREAK**
+1:50-ish
+
+
+## Create SOLID posters
+Create Wall Poster of Extract Class Recipe while they're doing SOLID posters.
+
+2:00pm
+
+Have them count off from 1-5 or S-D (S O L I D)
+give them 35 minutes to take a 5 min break and then do 30 mins research
+have them give 5 minute presentations (this is a great opportunity for them to nourish their inner playwrights)
+Their presentation should include a definition, examples (in code and/or in life) and places in class or in their own applications where they follow/break the rule.
+
+Solid Presentations and discussion
+2:30-ish
+
+SOLID isn't so useful, but tell them about Steve Freeman and Nat Pryce's
+  * Loosely Coupled
+  * Highly Cohesive
+  * Easily Composable
+  * Context Independent
+
+**5 minute BREAK**
+
+
+
+## Bottles, Mob verse template
+3:10-ish
+
+## Bottles, They do verse template
+4:00-ish
+
 
 ### Day 2 options
 
@@ -898,15 +742,18 @@ Inheritance in BottleNumbers
 
 # DAY 3
 
-Prep the repo with house and farm:
+Prep the repo with house, adhoc and farm:
 
     git checkout master
 
-    git checkout origin/house_2a_pre_random -- house/
-    git commit -m 'house pre random'
+    git checkout origin/house -- house/
+    git commit -m 'add house exercise'
 
     git checkout origin/farm -- farm/
     git commit -m 'add farm exercise'
+
+    git checkout origin/adhoc -- adhoc/
+    git commit -m 'add adhoc exercise'
 
     git push
 
@@ -916,48 +763,9 @@ Have them do surveys and reflection as per day 2.
 
 **BREAK**
 
-10:00am
+10:25am
 
-### 99 Bottles, They do Conditional to Polymorphism
-
-This seems easy, but they may have trouble with the Factory, and fixing the Liskov violation in the successor method.  Give them lots of help.  You can also identify the folks that get it and have them mentor groups of 3 or 4.
-
-Once they all get through the conditional to polymorphism refactoring...
-
-### Fix the #successor Liskov violation
-  * Move bottle_number_for to BottleNumber.for
-  * Temporarily add `return` to `for` if number is already a BottleNumber
-  * Fix the successor methods to return a BottleNumber-ish
-  * Use successor in Verses last line
-  * delete the temporary return
-Now `verses` does nothing with `number` other than turn it into something else.
-Talk about converting it to the right thing at first chance.
-
-### Factories
-
-  * Use const_get to make the factory we have open closed
-  * Do factory escalations
-      * What if you want the factory to be open to new subclasses? (metaprogramming, #const_get)
-      * What if you want better names? (Hash, YML, database list)
-      * What if you put the factory in a conversion method on Fixnum? (monkey patch)
-      * What if you want to disperse the logic that chooses the right class into the class that might be chosen (handler pattern)?
-
-### Monkey Patch Integer, Add Conversion method on BottleNumber
-  turning 3 dependencies into two
-
-### Rails Advice
-If there's time to talk about Rails, it's here.
-  * Don't use Concerns
-  * Don't use Helpers
-  * Don't let the framework API creep into your code
-    * Can only send ActiveRecord methods from direct subclasses
-    * Always use your own class methods/names scopes
-  * Consider the effect of the above on testing
-  * Consider the effect of the above on changing frameworks
-
-**LUNCH**
-
-### Farm, Null Object Pattern
+### Farm, Null Object Pattern, Wrapping External Interfaces
 
 Introduce the Farm exercise.  
 
@@ -993,14 +801,24 @@ help them figure out how to swap nils for instances of MissingAnimal, and then p
 
 Remember that creating a wrapper introduces and API breaking chance and requires that you change the tests.  Sometimes it's worth it. :-)
 
-**SHORT BREAK**
+### Rails Advice
+If there's time to talk about Rails, it's here.
+  * Don't use Concerns
+  * Don't use Helpers
+  * Don't let the framework API creep into your code
+    * Can only send ActiveRecord methods from direct subclasses
+    * Always use your own class methods/names scopes
+  * Consider the effect of the above on testing
+  * Consider the effect of the above when changing frameworks
 
-**SWAG??**
+**LUNCH**
 
-### Remaining Presentations
-For however long it takes.
+## House, Shameless Green
 
-### House, Random and Pirate
+Once they complete shameless green, decide that 'the house that Jack build' should be on the list of phrases, so stick it there in place of the empty string.  (see instructor\_docs/house\_escalations.txt )
+
+
+## House, Random and Pirate
 
 Let's drive them into a hole using inheritance.
 
@@ -1015,7 +833,6 @@ Pirate House Instructions
   * Same rules: you can't use a conditional, and House must be open to the new requirement.
   * Create a `prefix` method to isolate "This is".
   * Create PirateHouse to override `prefix`.
-
 
 RandomPirateHouse Instructions:
   * Still want House, Random house and Pirate house.
@@ -1044,9 +861,9 @@ They must name the role, define the API, create various objects to play the role
 They should create an orderer role, and then perhaps a prefixer role.
 This is a good place to introduce them to named parameters, if it hasn't already come up.
 
-Make them demo House, random house, pirate house and pirate echo house.
+Make them show you House, random house, pirate house and random pirate house, and then cut them loose on the escalations.
 
-** POSTER! **
+**Make POSTER from instructor_docs/house_escalations.txt**
 
 Once they get this done, continue to add new variants.  All previous variants must continue to work, plus
   * Hold 'the house the Jack built' last, shuffle only lines 1-11.
@@ -1054,8 +871,6 @@ Once they get this done, continue to add new variants.  All previous variants mu
   Each line has a trailing 'that'.  This final, trailing 'that' separates the actor from the action.
   * Mix up actors ('the priest'), modifiers ('all shaven and shorn') and actions ('the married').
   Not every line has a modifier, assume the modifier is '' if it doesn't exist.
-
-I don't have new refactorings for these variants, but some examples are in the old house\_x\_old\_exploration branch.
 
 ### Course Summary
 Stop them at 3:30 to do a summary.
@@ -1072,7 +887,7 @@ This is OO.
 
 
 
-### Do final survey
+## Remind them to do final survey and day 3 reflection
 
 Tell them the bit.ly day 3 survey link
 Give them a few minutes to fill out survey
