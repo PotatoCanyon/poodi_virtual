@@ -4,11 +4,6 @@ class Integer
   end
 end
 
-def BottleNumber(number)
-  return number if number.kind_of?(BottleNumber)
-  BottleNumber.for(number)
-end
-
 
 class Bottles
   def song
@@ -68,7 +63,7 @@ class BottleNumber
   end
 
   def successor
-    BottleNumber(number - 1)
+    (number - 1).to_bottle_number
   end
 end
 
