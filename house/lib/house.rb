@@ -1,9 +1,5 @@
 class House
-  def recite
-    1.upto(12).collect {|i| line(i)}.join("\n")
-  end
-
-  def phrase(num=1)
+  DATA =
     [ "the horse and the hound and the horn that belonged to",
       "the farmer sowing his corn that kept",
       "the rooster that crowed in the morn that woke",
@@ -15,10 +11,21 @@ class House
       "the cat that killed",
       "the rat that ate",
       "the malt that lay in",
-      ""].last(num).join(" ")
+      ""]
+
+  def recite
+    1.upto(12).collect {|i| line(i)}.join("\n")
+  end
+
+  def phrase(num=1)
+    data.last(num).join(" ")
   end
 
   def line(num)
     "This is #{phrase(num)}the house that Jack built.\n"
+  end
+
+  def data
+    DATA
   end
 end
