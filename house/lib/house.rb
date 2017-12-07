@@ -30,10 +30,6 @@ class House
   def line(num)
     "#{prefix} #{phrase(num)}.\n"
   end
-
-  def prefix
-    "This is"
-  end
 end
 
 
