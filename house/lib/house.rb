@@ -12,6 +12,11 @@ class House
       "the rat that ate",
       "the malt that lay in",
       "the house that Jack built"]
+  attr_reader :data
+
+  def initialize
+    @data = DATA
+  end
 
   def recite
     1.upto(12).collect {|i| line(i)}.join("\n")
@@ -28,25 +33,4 @@ class House
   def prefix
     "This is"
   end
-
-  def data
-    DATA
-  end
 end
-
-
-class RandomHouse < House
-  def data
-    @data ||= super.shuffle
-  end
-end
-
-class PirateHouse < House
-  def prefix
-    "Thar be"
-  end
-end
-
-puts RandomHouse.new.line(12)
-puts
-puts PirateHouse.new.line(12)
