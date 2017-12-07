@@ -22,7 +22,11 @@ class House
   end
 
   def line(num)
-    "This is #{phrase(num)}.\n"
+    "#{prefix} #{phrase(num)}.\n"
+  end
+
+  def prefix
+    "This is"
   end
 
   def data
@@ -37,4 +41,12 @@ class RandomHouse < House
   end
 end
 
+class PirateHouse < House
+  def prefix
+    "Thar be"
+  end
+end
+
 puts RandomHouse.new.line(12)
+puts
+puts PirateHouse.new.line(12)
