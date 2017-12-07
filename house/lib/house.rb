@@ -11,7 +11,7 @@ class House
       "the cat that killed",
       "the rat that ate",
       "the malt that lay in",
-      ""]
+      "the house that Jack built"]
 
   def recite
     1.upto(12).collect {|i| line(i)}.join("\n")
@@ -22,7 +22,7 @@ class House
   end
 
   def line(num)
-    "This is #{phrase(num)}the house that Jack built.\n"
+    "This is #{phrase(num)}.\n"
   end
 
   def data
