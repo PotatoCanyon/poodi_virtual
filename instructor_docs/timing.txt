@@ -424,3 +424,62 @@ Day 3
 13:45-14:25 (roughly) Mob house
 14:25-15:15 They do house
 15:15-15:30 Class wrap up
+
+-------------------------------
+# VTS1 Dec 2017
+
+## Day 1
+
+09:00-09:25 Discuss pairing dimensions, line up to pair, introduce exercise
+09:25-09:55 Initial bottles exercise
+09:55-10:10 Break
+10:10-10:25 Introduce the course, do goals, collect goals
+10:25-10:40 Goals followup discussion: testing/refactoring/OOD
+10:40-11:15 Bottles show and tell
+11:15-11:25 Break
+11:25-11:40 Show Shamless Green, chat about it
+11:40-11:50 Introduce 6 pack requirement, open closed, code smells
+11:50-12:30 Lunch
+12:30-01:30 Mob DRY bottles verse
+02:15-02:30 Break
+02:30-03:15 They do DRY bottles verse
+            Followup discussion from exercise,
+03:23-03:30 Break
+03:30-04:35 mob extract class
+04:35-05:00 office hours
+
+
+## Day 2
+
+09:00-10:25 Surveys, reflection
+            Break
+            Reflection followup,
+            They do extract class`
+            mob conditional to polymorphism, successor
+            They do conditional to polymorphism and successor
+            Lunch
+            Monkey patching, factories discussion
+            Break
+            SOLID discussion
+            SOLID presentations
+            Mob verse template
+            They do verse template
+
+### Plan
+
+ Surveys, reflection
+ Conditional to polymorphism, six-pack
+ Lunch
+ Successor, factories, ??? monkey patching
+ SOLID
+ Mob verse template
+ They do verse template
+
+## Day 3
+
+09:00-10:20 Surveys, reflection
+10:20-10:30 Break
+            Farm, API/Rails discussion
+            Lunch
+            Science gem discussion, house exercise
+            Wrap-up, goodbyes
