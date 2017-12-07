@@ -48,4 +48,18 @@ class OriginalOrderer
   end
 end
 
+
+class PiratePrefixer
+  def prefix
+    "Thar be"
+  end
+end
+
+class MundanePrefixer
+  def prefix
+    "This is"
+  end
+end
+
+
 puts House.new(orderer: RandomOrderer.new).line(12)
