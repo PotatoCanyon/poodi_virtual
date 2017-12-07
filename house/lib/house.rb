@@ -42,3 +42,15 @@ end
 
 
 puts House.new(true).line(12)
+
+class RandomOrderer
+  def order(data)
+    data.shuffle
+  end
+end
+
+class OriginalOrderer
+  def order(data)
+    data
+  end
+end
