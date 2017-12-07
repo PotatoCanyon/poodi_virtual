@@ -14,8 +14,13 @@ class House
       "the house that Jack built"]
   attr_reader :data
 
-  def initialize
-    @data = DATA
+  def initialize(random=false)
+    @data =
+      if random == true
+        DATA.shuffle
+      else
+        DATA
+      end
   end
 
   def recite
@@ -34,3 +39,6 @@ class House
     "This is"
   end
 end
+
+
+puts House.new(true).line(12)
