@@ -451,35 +451,32 @@ Day 3
 
 ## Day 2
 
-09:00-10:25 Surveys, reflection
-            Break
-            Reflection followup,
-            They do extract class`
-            mob conditional to polymorphism, successor
-            They do conditional to polymorphism and successor
-            Lunch
-            Monkey patching, factories discussion
-            Break
-            SOLID discussion
-            SOLID presentations
-            Mob verse template
-            They do verse template
-
-### Plan
-
- Surveys, reflection
- Conditional to polymorphism, six-pack
- Lunch
- Successor, factories, ??? monkey patching
- SOLID
- Mob verse template
- They do verse template
+09:00-10:10 Surveys, reflection
+10:10-10:20 Break
+10:20-10:50 They do extract class
+            mob conditional to polymorphism, successor, factories
+12:15-12:45 Lunch
+12:45-01:30 They do conditional to polymorphism, fix liskov successor, factories
+              everyone got poly and liskov, only some got to factories`
+01:30-02:00 Monkey patching
+02:00 - 02:10 Break
+02:10-02:45 SOLID discussion
+02:50-03:22 SOLID presentations
+03:22-03:30 break
+03:30-04:10 Mob verse template
 
 ## Day 3
 
-09:00-10:20 Surveys, reflection
-10:20-10:30 Break
+09:00-10:10 Surveys, reflection
+10:10-10:20 Break
+            They do verse template ??
             Farm, API/Rails discussion
-            Lunch
-            Science gem discussion, house exercise
-            Wrap-up, goodbyes
+12:15-12:55 Lunch
+12:55-01:20 House Shameless Green (was supposed to be 10 mins)
+01:20-01:50 They attempt House dry (was supposed to be 15 mins)
+01:50-02:10 Mob House Dry
+01:30-01:45 Break                ***push house_3_pre_inheritance during this break***
+01:45-02:30 Mob inheritance, switch to composition
+02:30-02:45 Break                ***push house_6_pre_composition***
+02:45-03:30 They do composition, escalations
+03:30-04:00 Wrap-up, goodbyes
