@@ -480,3 +480,68 @@ Day 3
 02:30-02:45 Break                ***push house_6_pre_composition***
 02:45-03:30 They do composition, escalations
 03:30-04:00 Wrap-up, goodbyes
+
+
+-------------------------------
+# VTS2 Dec 2017
+
+Pipe Bomb at Port Authority Bus Terminal in Time Square, started late
+
+## Day 1
+
+09:50-10:07 Discuss pairing dimensions, line up to pair, introduce exercise
+10:07-10:37 Initial bottles exercise
+10:40-10:48 Introduce the course, do goals, collect goals
+10:48-11:13 Goals followup discussion: testing/refactoring/OOD
+11:13-11:30 Break
+11:30-12:10 Bottles show and tell
+            Someone wrote Shameless Green, show it last and let them explain it.
+12:10-12:40 Lunch
+            Have them pull Shameless Green, get a typist
+12:40       Show then define Shameless Green
+12:40-01:?? Introduce 6 pack requirement, open closed, code smells
+01:??-02:45 Mob DRY bottles verse
+02:45-03:00 Break
+03:05-03:45 They do DRY bottles verse
+03:45-04:50 mob extract class
+04:50-05:30 office hours
+
+
+## Day 2
+09:10-09:20         Surveys (got a late start)
+09:20-09:55 35 mins reflection small group
+10:00-10:15 15 mins reflection presentations
+10:15-10:30 10 mins Break
+10:35-10:55 20 mins They do extract class
+10:55-12:05 20 mins mob conditional to polymorphism, successor
+12:05-12:35 30 mins Lunch
+12:40-01:00 20 mins They do conditional to polymorphism, fix liskov successor
+01:00-01:40 40 mins Factories
+01:40-02:15 35 mins Monkey patching
+02:17-02:30 13 mins Break
+02:30-03:00 30 mins SOLID small groups
+03:00-03:30 30 mins SOLID presentations
+03:35-04:30 45 mins Mob verse template
+
+## Day 3
+
+09:10-10:25          Surveys (they were late again)
+09:25-09:55 30 mins  reflection small group
+p
+10:00-10:20 20 mins  reflection presentations
+10:20-10:30 15 mins  Break
+10:30-11:00 30 mins  Farm
+11:00-12:15 60 mins  API/Rails discussion
+12:15-12:50 30 mins  Lunch
+12:55-01:10 15 mins House Shameless Green (sched 10 mins)
+01:10-01:30 20 mins They attempt House dry (sched 15 mins)
+
+01:35-01:55         Mob House Dry
+01:55-02:10 10 mins Break                ***push house_3_pre_inheritance during this break***
+02:10-02:20         They re-do House Dry
+
+02:20-02:40 20 mins Mob inheritance, switch to composition
+
+02:15-02:30 15 mins Break                ***push house_6_pre_composition***
+02:30-03:30 60 mins They do composition, escalations
+03:30-04:00         Wrap-up, goodbyes

@@ -92,16 +92,20 @@ Skipping a lot of the detail depicted above.
 - Make a new class `BottleVerse`, with `attr_reader` and `initialize(number)`.
 - Copy the `verse` method.
 - Call `BottleVerse.new(number).verse(number)` from `Bottles#verse`.
+
 - Rename `BottleVerse#verse` to `BottleVerse#lyrics`.
 - Inject `verse_template: BottleVerse` into `Bottles.initialize`, make an
   `attr_reader` for it, then use `verse_template` in `Bottles#verse`.
+
 - Make tests for `BottleVerse` by copying `Bottles#verse` tests, then removing
   those old tests.
+
 - Change `Bottles` to `DescendingVerseSong`.
 - `DescendingVerseSongTest` that uses a `VerseDouble`.
 - Remove redundant `test_a_few_verses` and make a simple test to `test_a_verse`.
 - Simplify `test_the_whole_song` using `VerseDouble`. Inject max/min to limit
   the range of verses that get produces and simplify the test.
+  
 - Fix Demeter violation: `verse_template.new(number).lyrics` =>
   `verse_template.lyrics(number)`. To enable, make a class method `lyrics` on
   `BottleVerse`. Need to update the double too. All it needs now is the class
