@@ -111,3 +111,5 @@ Skipping a lot of the detail depicted above.
   `BottleVerse`. Need to update the double too. All it needs now is the class
   method.
 - Update the tests to use the new `verse_template` API.
+
+- Change BottleVerse to convert `number` to a `BottleNumber` in the `self.lyrics` factory method.  The instance should get injected with a real BottleNumber.

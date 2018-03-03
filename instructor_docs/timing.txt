@@ -545,3 +545,57 @@ p
 02:15-02:30 15 mins Break                ***push house_6_pre_composition***
 02:30-03:30 60 mins They do composition, escalations
 03:30-04:00         Wrap-up, goodbyes
+
+
+-------------------------------
+# Arcadia Power Feb 2018
+
+## Day 1
+
+09:00-      Discuss pairing dimensions, line up to pair, introduce exercise
+09:25-      Initial bottles exercise
+09:37-09:50 Break
+10:00-      do goals, collect goals, Goals followup discussion: testing/refactoring/OOD
+10:20-      We mob TDD for Bottles
+11:45-12:30 Lunch
+12:40-01:15 Code I talk: Smells/Flocking Rules/Refactoring Flowchart
+01:15-01:30 Break
+01:30-03:00 Mob DRY
+03:00-03:15 Break
+03:15-04:00 They do DRY
+04:00-04:50 Mob Extract class
+04:50-06:00 office hours
+
+
+## Day 2
+
+09:00-09:26 Surveys
+09:26-10:30 Reflection
+10:30-10:35 Break
+10:40-11:00 They do extract class
+11:00-12:30 mob conditional to polymorphism, successor, monkey patching
+12:30-01:00 Lunch
+12:45-      They do conditional to polymorphism, fix liskov successor, factories
+              everyone got poly and liskov, only some got to factories`
+01:30-      Monkey patching
+02:00-      Break
+02:10-      SOLID discussion
+02:50-      SOLID presentations
+03:22-      break
+03:30-04:50 Mob verse template
+
+
+## Day 3
+
+09:00-10:10 Surveys, reflection
+10:10-10:20 Break
+            Farm, API/Rails discussion
+12:00-12:45 Lunch
+12:55-01:20 House Shameless Green (was supposed to be 10 mins)
+01:20-01:50 They attempt House dry (was supposed to be 15 mins)
+01:50-02:10 Mob House Dry
+01:30-01:45 Break                ***push house_3_pre_inheritance during this break***
+01:45-02:30 Mob inheritance, switch to composition
+02:30-02:45 Break                ***push house_6_pre_composition***
+02:45-03:30 They do composition, escalations
+03:30-04:00 Wrap-up, goodbyes
