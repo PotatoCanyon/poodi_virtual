@@ -31,7 +31,7 @@ Show the repo on the projector or write it on the board
 * I'm _xxxx_
 * This is _yyyy_
 * git clone this repo
-* Warning: YOU'LL NEVER CHECK CODE INTO MASTER OF THIS REPO
+* Warning: YOU'LL NEVER CHECK CODE INTO MASTER OF THIS REPO !!!!
 
     for example...
     https://github.com/torqueforge/poodnc-2017
@@ -130,7 +130,10 @@ As you collect the goal goal post-its, group them into OOD, refactoring, testing
 Once all the goal post-its are up, have them guess the names of the 4 groups, and then write the label on each group.
 
 
-## Bottles Show and Tell
+## Optional Bottles Show and Tell --OR-- 
+## Optional Group TDD the tests --OR-- 
+## Skip forward to next section (6-packs)
+
 10:45-ish
 
 ***Describe how show and tells work:***
@@ -166,7 +169,7 @@ They might put evil pair code in #verse, #verses and #song to pass the tests.  I
 
 Only #verse is responsible for producing a verse, the other methods are responsible for algorithms.
 
-* DON'T CHECK CODE INTO MASTER
+* DON'T CHECK CODE INTO MASTER !!!
 
 ## Define shameless green
 
@@ -199,7 +202,7 @@ There is a place to guess. We want exemplary code. If I have experience that tel
 
 
 
-## Introduce 6-pack Requirment
+## Introduce 6-pack Requirement
 
 6-packs
 
