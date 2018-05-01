@@ -9,5 +9,5 @@
 * Simplify the House tests using what you learned from Bottles extract verse.
 
 * Mix up actors ('the priest'), modifiers ('all shaven and shorn') and actions
-  ('the married'). Not every line has a modifier, assume the modifier is '' if
+  ('that married'). Not every line has a modifier, assume the modifier is '' if
   it doesn't exist.
