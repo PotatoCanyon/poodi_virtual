@@ -48,6 +48,9 @@ Things to Read:
     Vaughn Vernon: Implementing Domain Driven Design
       http://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577
 
+    David West: Object Thinking
+      https://www.amazon.com/Object-Thinking-Developer-Reference-David/dp/0735619654
+
 
 Things to Watch:
   Design
@@ -73,6 +76,7 @@ Things to Watch:
 
   Pointy Headed
     http://bit.ly/rich_hickey_simple_made_easy
+    https://codon.com/a-lever-for-the-mind
 
   Most Fun Ever
     Guy Steele: Growing A Language
