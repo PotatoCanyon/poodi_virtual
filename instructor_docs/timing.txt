@@ -1,3 +1,45 @@
+# POOD NC Public Course May 2018
+
+## Day 1
+
+09:00-09:20 Pre-exercise discussion
+09:21-09:36 Initial bottles exercise
+09:36-09:45 Break
+09:45-10:25 Introduce the course, do goals, collect goals
+10:25-12:00 Mob TDD bottles shameless greeen
+12:00-12:45 Lunch
+12:45-13:15 Introduce 6-pack, open/closed, code smells
+13:15-15:21 Mob DRY bottles
+15:21-15:35 Break
+15:35-16:05 They do DRY bottles verse
+16:05-17:05 Mob extract class
+
+## Day 2
+
+09:00-09:43 Surveys, discussion
+09:43-10:40 Reflection, presentations
+10:40-11:08 They do extract class
+11:08-11:15 Break
+11:15-12:05 Mob conditional to polymorphism
+12:05-12:45 Lunch
+12:45-13:00 They do conditional to polymorphism
+13:00-13:18 Discussion to lead to factories
+13:18-14:20 Successor, factories
+14:15-15:25 SOLID
+15:25-16:40 Verse template demo
+
+## Day 3
+
+09:00-09:25 Q&A
+09:25-10:15 Reflection
+10:15-10:35 Surveys
+10:35-10:50 Break
+10:50-11:55 Farm / Bottles redux group
+12:00-12:45 Lunch
+12:45-14:00 Bottles redux group
+12:45-15:45 House
+
+--------------------------------------------------------------------------------
 # POOD NC Public Course October 2017
 
 ## Day 1
