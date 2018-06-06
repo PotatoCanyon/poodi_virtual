@@ -5,7 +5,11 @@
 09:00-09:15 Pre-exercise discussion
 09:15-09:30 Shameless green
 09:30-09:40 Break
-09:40-xx:xx Change pairs, introduce course
+09:40-09:53 Change pairs, introduce course
+09:53-10:15 Collect goals, public course-style
+10:15-10:50 Testing, shameless green, code smells, open closed discussion
+10:50-11:00 Break
+11:00-xx:xx
 
 --------------------------------------------------------------------------------
 # POOD NC Public Course May 2018
