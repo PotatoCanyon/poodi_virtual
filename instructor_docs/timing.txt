@@ -9,7 +9,22 @@
 09:53-10:15 Collect goals, public course-style
 10:15-10:50 Testing, shameless green, code smells, open closed discussion
 10:50-11:00 Break
-11:00-xx:xx
+11:00-11:15 Discussion that bled over from break
+11:15-12:00 Mob DRY bottles
+12:00-12:45 Lunch
+12:45-13:45 Mob DRY bottles - 2 tokens: 1 asks questions, 1 answers
+13:45-14:00 Break
+14:00-14:30 They do DRY bottles
+14:30-16:00 Mob extract class
+16:00-16:15 Break
+16:15-16:35 They do extract class
+16:35-17:15 Mob conditional to inheritance
+17:15-18:15 Office hours
+
+## Day 2
+
+Reflection
+Surveys
 
 --------------------------------------------------------------------------------
 # POOD NC Public Course May 2018
