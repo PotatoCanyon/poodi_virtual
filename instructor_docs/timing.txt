@@ -23,13 +23,28 @@
 
 ## Day 2
 
-Reflection
-Surveys
+09:05-09:40 They do reflection
+09:40-10:05 Reflection presentations
+10:05-10:15 Break
+10:15-10:38 Surveys, summarize what's to come today
+10:38-10:55 They do conditional to polymorphism
+10:55-11:30 Fix successor
+11:30-11:35 Break
+11:35-12:02 Factories
+12:02-12:45 Lunch
+12:45-13:15 Verse template (got to max, min)
+13:15-14:30 Talk
+14:30-14:45 Break
+14:45-15:20 Verse template the rest
+15:20-15:43 Monkey patching discussion
+15:43-16:00 Break
+16:00-17:00 They do verse template
+17:00-19:30 Happy office hour, SOLID
 
 --------------------------------------------------------------------------------
 # POOD NC Public Course May 2018
 
-## Day 1
+# Day 1
 
 09:00-09:20 Pre-exercise discussion
 09:21-09:36 Initial bottles exercise
