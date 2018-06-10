@@ -41,6 +41,20 @@
 16:00-17:00 They do verse template
 17:00-19:30 Happy office hour, SOLID
 
+## Day 3
+
+09:00-09:35 Reflection
+09:35-09:57 Reflection presentations
+09:57-10:05 Break
+10:05-10:22 Survey
+10:25-11:05 Farm
+11:05-11:11 Break
+11:11-11:25 House shameless green
+11:25-12:05 DRY house (didn't finish)
+12:05-xx:xx Lunch
+13:00-15:00 House inheritance vs. composition, escalations
+
+
 --------------------------------------------------------------------------------
 # POOD NC Public Course May 2018
 
