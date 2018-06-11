@@ -1,6 +1,64 @@
-# POOD NC Public Course May 2018
+# Shopify 2018 Montreal
 
 ## Day 1
+
+09:00-09:15 Pre-exercise discussion
+09:15-09:30 Shameless green
+09:30-09:40 Break
+09:40-09:53 Change pairs, introduce course
+09:53-10:15 Collect goals, public course-style
+10:15-10:50 Testing, shameless green, code smells, open closed discussion
+10:50-11:00 Break
+11:00-11:15 Discussion that bled over from break
+11:15-12:00 Mob DRY bottles
+12:00-12:45 Lunch
+12:45-13:45 Mob DRY bottles - 2 tokens: 1 asks questions, 1 answers
+13:45-14:00 Break
+14:00-14:30 They do DRY bottles
+14:30-16:00 Mob extract class
+16:00-16:15 Break
+16:15-16:35 They do extract class
+16:35-17:15 Mob conditional to inheritance
+17:15-18:15 Office hours
+
+## Day 2
+
+09:05-09:40 They do reflection
+09:40-10:05 Reflection presentations
+10:05-10:15 Break
+10:15-10:38 Surveys, summarize what's to come today
+10:38-10:55 They do conditional to polymorphism
+10:55-11:30 Fix successor
+11:30-11:35 Break
+11:35-12:02 Factories
+12:02-12:45 Lunch
+12:45-13:15 Verse template (got to max, min)
+13:15-14:30 Talk
+14:30-14:45 Break
+14:45-15:20 Verse template the rest
+15:20-15:43 Monkey patching discussion
+15:43-16:00 Break
+16:00-17:00 They do verse template
+17:00-19:30 Happy office hour, SOLID
+
+## Day 3
+
+09:00-09:35 Reflection
+09:35-09:57 Reflection presentations
+09:57-10:05 Break
+10:05-10:22 Survey
+10:25-11:05 Farm
+11:05-11:11 Break
+11:11-11:25 House shameless green
+11:25-12:05 DRY house (didn't finish)
+12:05-13:00 Lunch
+13:00-15:00 House inheritance vs. composition, escalations
+
+
+--------------------------------------------------------------------------------
+# POOD NC Public Course May 2018
+
+# Day 1
 
 09:00-09:20 Pre-exercise discussion
 09:21-09:36 Initial bottles exercise

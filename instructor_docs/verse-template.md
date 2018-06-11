@@ -105,11 +105,13 @@ Skipping a lot of the detail depicted above.
 - Remove redundant `test_a_few_verses` and make a simple test to `test_a_verse`.
 - Simplify `test_the_whole_song` using `VerseDouble`. Inject max/min to limit
   the range of verses that get produces and simplify the test.
-  
+
 - Fix Demeter violation: `verse_template.new(number).lyrics` =>
   `verse_template.lyrics(number)`. To enable, make a class method `lyrics` on
   `BottleVerse`. Need to update the double too. All it needs now is the class
   method.
 - Update the tests to use the new `verse_template` API.
 
-- Change BottleVerse to convert `number` to a `BottleNumber` in the `self.lyrics` factory method.  The instance should get injected with a real BottleNumber.
+- Change BottleVerse to convert `number` to a `BottleNumber` in the
+  `self.lyrics` factory method.  The instance should get injected with a real
+  BottleNumber.
