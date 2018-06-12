@@ -1,3 +1,26 @@
+# Shopify 2018 Ottawa
+
+## Day 1
+
+09:00-09:22 Ruby, TDD, pairing, book discussion, clone repo, etc.
+09:22-09:37 They do shameless green
+09:37-09:48 Explain the course
+09:48-10:12 Collect goals (public course style)
+10:12-10:25 Break
+10:25-11:12 Testing, shameless green, code smells, open closed discussion
+11:12-11:46 Mob DRY bottles (up to the first extracted method)
+11:46-12:00 They do DRY bottles
+12:00-12:45 Lunch
+12:45-13:20 Continue they do DRY bottles
+13:20-13:35 Demo successor refactoring
+13:35-13:55 Discussion that leads to primitive obsession, extract class
+13:55-14:15 They do extract class
+14:15-14:30 Break
+14:30-15:43 Discussion of caching/immutability, mob conditional to polymorphism
+15:43-15:53 They do conditional to polymorphism
+15:53-16:00 Mob six-pack TDD
+
+--------------------------------------------------------------------------------
 # Shopify 2018 Montreal
 
 ## Day 1
