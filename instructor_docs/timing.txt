@@ -36,6 +36,19 @@
 
 ## Day 3
 
+09:00-10:20 Reflection
+10:20-10:42 Break, survey
+10:42-10:55 Explain what's coming the rest of the day
+10:55-11:45 Farm
+11:45-12:45 Lunch, Rails discussion
+House
+
+### Break out group
+
+11:00-11:45, 12:45-15:00
+- Redo bottles from scratch up to six-pack
+- Additional discussions: sender/receiver/self, duck typing, factories
+
 --------------------------------------------------------------------------------
 # Shopify 2018 Montreal
 
