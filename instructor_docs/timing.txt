@@ -20,6 +20,22 @@
 15:43-15:53 They do conditional to polymorphism
 15:53-16:00 Mob six-pack TDD
 
+## Day 2
+
+09:00-09:40 Make reflection posters
+09:40-10:07 Present reflection posters
+10:07-10:20 Surveys
+10:20-10:30 Break
+10:30-11:47 Data clump, successor, monkey patching
+11:47-12:30 Lunch
+12:30-13:20 Factories
+13:20-13:30 Break
+13:30-14:30 SOLID
+14:30-15:15 Mob verse template refactoring
+15:15-16:00 They do factories or verse template extraction
+
+## Day 3
+
 --------------------------------------------------------------------------------
 # Shopify 2018 Montreal
 
