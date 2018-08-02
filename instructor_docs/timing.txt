@@ -21,6 +21,19 @@
 
 ## Day 2
 
+09:00-09:05 Explain reflection
+09:05-09:35 They do reflection
+09:35-10:00 Reflection presentations
+10:00-10:17 Surveys
+10:17-10:30 Break
+10:30-12:25 Mob extract BottleNumber, conditional to polymorphism
+12:25-13:00 Lunch
+13:00-14:25 Mob data clump, successor, factories
+14:25-15:08 SOLID group work
+15:08-15:40 SOLID presentations
+15:40-16:45 Discussion, mob vary verse template
+16:45-17:00 Office hours
+
 --------------------------------------------------------------------------------
 
 # Shopify 2018 Montreal
