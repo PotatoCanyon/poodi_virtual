@@ -1,3 +1,42 @@
+====
+# Appfolio 2018
+
+## Day 1
+
+09:00-10:30 Shameless green bottles (+ course intro, break, etc.)
+10:30-11:00 Collect goals
+11:00-11:15 Introduce new requirement, open-closed, code smells
+11:15-11:20 Break
+11:20-11:40 Mob pick code smell, start DRY bottles
+11:40-12:20 They do DRY bottles
+12:20-13:00 Lunch
+13:00-13:35 Mob DRY bottles (they needed it)
+13:35-13:45 They do DRY bottles
+13:45-14:22 House shameless green, follow up discussion
+14:22-14:35 Break
+14:35-14:55 They do DRY house
+14:55-15:20 Mob DRY house
+15:20-15:35 Mob DRY house again
+15:35-15:52 Discussion, reset context, pick the next code smell for bottles
+15:52-17:35 Office hours
+
+## Day 2
+
+09:00-09:05 Explain reflection
+09:05-09:35 They do reflection
+09:35-10:00 Reflection presentations
+10:00-10:17 Surveys
+10:17-10:30 Break
+10:30-12:25 Mob extract BottleNumber, conditional to polymorphism
+12:25-13:00 Lunch
+13:00-14:25 Mob data clump, successor, factories
+14:25-15:08 SOLID group work
+15:08-15:40 SOLID presentations
+15:40-16:45 Discussion, mob vary verse template
+16:45-17:00 Office hours
+
+
+====
 # Shopify 2018 Ottawa
 
 ## Day 1
@@ -49,7 +88,8 @@ House
 - Redo bottles from scratch up to six-pack
 - Additional discussions: sender/receiver/self, duck typing, factories
 
---------------------------------------------------------------------------------
+
+====
 # Shopify 2018 Montreal
 
 ## Day 1
