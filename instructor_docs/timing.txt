@@ -35,6 +35,21 @@
 15:40-16:45 Discussion, mob vary verse template
 16:45-17:00 Office hours
 
+## Day 3
+
+09:00-09:20 Day 2 end of day review
+09:20-09:50 They do reflection
+09:50-10:13 Reflection presentations
+10:13-10:25 Surveys
+10:25-10:32 Discuss options for the rest of the day
+10:32-10:40 Break
+10:40-11:15 Monkey patching
+11:15-11:25 Break
+11:25-12:07 Farm, external frameworks
+12:07-12:45 Lunch
+12:45-13:50 Rails discussion
+13:50-14:05 Break
+14:05-15:45 House inheritance vs. composition (group choice - fast, mentor)
 
 ====
 # Shopify 2018 Ottawa
