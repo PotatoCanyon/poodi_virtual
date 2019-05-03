@@ -22,7 +22,7 @@ class House
     1.upto(12).collect {|i| line(i)}.join("\n")
   end
 
-  def phrase(num=1)
+  def phrase(num)
     data.last(num).join(" ")
   end
 
