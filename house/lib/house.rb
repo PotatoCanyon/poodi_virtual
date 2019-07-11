@@ -3,7 +3,7 @@ class House
     1.upto(12).collect {|i| line(i)}.join("\n")
   end
 
-  def phrase(num=1)
+  def phrase(num)
     [ "the horse and the hound and the horn that belonged to",
       "the farmer sowing his corn that kept",
       "the rooster that crowed in the morn that woke",
