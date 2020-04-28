@@ -39,6 +39,7 @@ class MixedColumnOrdererTest < Minitest::Test
   end
 end
 
+
 class PhrasesTest < Minitest::Test
   def test_1d_phrase
     input_data = ["phrase 1", "phrase 2", "phrase 3", "phrase 4"]
@@ -56,6 +57,7 @@ class PhrasesTest < Minitest::Test
     assert_equal 10, Phrases.new(input_data: ["a"] * 10).size
   end
 end
+
 
 class HouseTest < Minitest::Test
   attr_reader :tale
