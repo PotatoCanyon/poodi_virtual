@@ -1,17 +1,3 @@
-# Escalation #3:
-# Some of the lines below contain a qualifier in the 'actor' part.
-#   Actor     -> 'the roster'
-#   Qualifier -> 'that crowed in the morn'
-#   Action    -> 'that woke'.
-#
-# Randomly mix actors/qualifiers/actions.
-# Missing qualifiers should be randomized as well
-#   (as if they are empty strings).
-#
-# "the horse and the hound and the horn" is an actor without a qualifier, as are
-#   the dog, cat, rat, malt and house.
-
-
 HOUSE_DATA =
 [ ["the horse and the hound and the horn", "that belonged to"],
   ["the farmer sowing his corn", "that kept"],
