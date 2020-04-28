@@ -15,8 +15,8 @@ class Phrases
 
     attr_reader :data
 
-    def initialize(orderer: OriginalOrderer.new)
-      @data = orderer.order(DATA)
+    def initialize(orderer: OriginalOrderer.new, input_data: DATA)
+      @data = orderer.order(input_data)
     end
 
     def phrase(num)
