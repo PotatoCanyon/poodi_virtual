@@ -26,24 +26,10 @@ end
 
 
 class House
-  DATA =
-    [ "the horse and the hound and the horn that belonged to",
-      "the farmer sowing his corn that kept",
-      "the rooster that crowed in the morn that woke",
-      "the priest all shaven and shorn that married",
-      "the man all tattered and torn that kissed",
-      "the maiden all forlorn that milked",
-      "the cow with the crumpled horn that tossed",
-      "the dog that worried",
-      "the cat that killed",
-      "the rat that ate",
-      "the malt that lay in",
-      "the house that Jack built"]
-  attr_reader :phrases, :data, :prefix
+  attr_reader :phrases, :prefix
 
-  def initialize(phrases: Phrases.new, orderer: OriginalOrderer.new, prefixer: MundanePrefixer.new)
+  def initialize(phrases: Phrases.new, prefixer: MundanePrefixer.new)
     @phrases = phrases
-    @data = orderer.order(DATA)
     @prefix = prefixer.prefix
   end
 
@@ -93,9 +79,9 @@ class MundanePrefixer
 end
 
 
-puts House.new(orderer: RandomOrderer.new).line(12)
-puts
-puts House.new(orderer: RandomOrderer.new, prefixer: PiratePrefixer.new).line(12)
-puts
-puts House.new(orderer: RandomButLastOrderer.new).line(12)
-puts
+# puts House.new(orderer: RandomOrderer.new).line(12)
+# puts
+# puts House.new(orderer: RandomOrderer.new, prefixer: PiratePrefixer.new).line(12)
+# puts
+# puts House.new(orderer: RandomButLastOrderer.new).line(12)
+# puts
