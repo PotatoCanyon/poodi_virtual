@@ -48,7 +48,8 @@ class House
   end
 
   def phrase(num)
-    data.last(num).join(" ")
+    phrases.data.last(num).join(" ")
+    # data.last(num).join(" ")
   end
 
   def line(num)
