@@ -1,3 +1,6 @@
+class Phrases
+end
+
 class House
   DATA =
     [ "the horse and the hound and the horn that belonged to",
