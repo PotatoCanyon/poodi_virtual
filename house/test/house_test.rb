@@ -53,6 +53,12 @@ class PhrasesTest < Minitest::Test
     assert_equal expected, Phrases.new(input_data: input_data).phrase(3)
   end
 
+  def test_2d_phrase_with_nils
+    input_data = [["phrase 1a", nil, "1c"], [nil, "2b", "2c"], ["phrase 3a", "3b", nil], ["phrase 4a", nil, nil]]
+    expected   = "2b 2c phrase 3a 3b phrase 4a"
+    assert_equal expected, Phrases.new(input_data: input_data).phrase(3)
+  end
+
   def test_size
     assert_equal 10, Phrases.new(input_data: ["a"] * 10).size
   end
