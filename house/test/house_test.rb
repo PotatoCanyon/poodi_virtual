@@ -40,9 +40,15 @@ class MixedColumnOrdererTest < Minitest::Test
 end
 
 class PhrasesTest < Minitest::Test
-  def test_phrase
+  def test_1d_phrase
     input_data = ["phrase 1", "phrase 2", "phrase 3", "phrase 4"]
     expected   = "phrase 2 phrase 3 phrase 4"
+    assert_equal expected, Phrases.new(input_data: input_data).phrase(3)
+  end
+
+  def test_2d_phrase
+    input_data = [["phrase 1a", "1b"], ["phrase 2a", "2b"], ["phrase 3a", "3b"], ["phrase 4a", "4b"]]
+    expected   = "phrase 2a 2b phrase 3a 3b phrase 4a 4b"
     assert_equal expected, Phrases.new(input_data: input_data).phrase(3)
   end
 end
