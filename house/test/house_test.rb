@@ -41,8 +41,9 @@ end
 
 class PhrasesTest < Minitest::Test
   def test_phrase
-    expected = '?'  # The House data makes for a confusing test
-    # assert_equal expected, Phrases.new.phrase(3)
+    input_data = ["phrase 1", "phrase 2", "phrase 3", "phrase 4"]
+    expected   = "phrase 2 phrase 3 phrase 4"
+    assert_equal expected, Phrases.new(input_data: input_data).phrase(3)
   end
 end
 
