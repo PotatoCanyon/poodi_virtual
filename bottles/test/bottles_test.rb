@@ -2,7 +2,7 @@ require_relative '../../test_helper'
 require_relative '../lib/bottles'
 
 class BottleVerseTest < Minitest::Test
-  def test_the_first_verse
+  def test_verse_general_rule_upper_bound
     expected = "99 bottles of beer on the wall, " +
       "99 bottles of beer.\n" +
       "Take one down and pass it around, " +
@@ -10,7 +10,7 @@ class BottleVerseTest < Minitest::Test
     assert_equal expected, BottleVerse.lyrics(99)
   end
 
-  def test_another_verse
+  def test_verse_general_rule_lower_bound
     expected = "3 bottles of beer on the wall, " +
       "3 bottles of beer.\n" +
       "Take one down and pass it around, " +
@@ -18,7 +18,7 @@ class BottleVerseTest < Minitest::Test
     assert_equal expected, BottleVerse.lyrics(3)
   end
 
-  def test_verse_2
+  def test_special_verse_2
     expected = "2 bottles of beer on the wall, " +
       "2 bottles of beer.\n" +
       "Take one down and pass it around, " +
@@ -26,7 +26,7 @@ class BottleVerseTest < Minitest::Test
     assert_equal expected, BottleVerse.lyrics(2)
   end
 
-  def test_verse_1
+  def test_special_verse_1
     expected = "1 bottle of beer on the wall, " +
       "1 bottle of beer.\n" +
       "Take it down and pass it around, " +
@@ -34,7 +34,7 @@ class BottleVerseTest < Minitest::Test
     assert_equal expected, BottleVerse.lyrics(1)
   end
 
-  def test_verse_0
+  def test_special_verse_0
     expected = "No more bottles of beer on the wall, " +
       "no more bottles of beer.\n" +
       "Go to the store and buy some more, " +
@@ -44,6 +44,7 @@ class BottleVerseTest < Minitest::Test
 end
 
 class BottlesTest < Minitest::Test
+
   def test_a_couple_verses
     expected = "99 bottles of beer on the wall, " +
       "99 bottles of beer.\n" +
