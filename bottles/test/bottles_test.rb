@@ -58,6 +58,7 @@ class CountdownSongTest < Minitest::Test
     assert_equal expected, CountdownSong.new(verse_template: VerseFake).verses(99, 98)
   end
 
+  # Is this test neccessary?
   def test_a_few_verses
     expected = "2 bottles of beer on the wall, " +
       "2 bottles of beer.\n" +
