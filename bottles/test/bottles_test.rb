@@ -55,7 +55,7 @@ class CountdownSongTest < Minitest::Test
       "This is verse 99.\n" +
       "\n" +
       "This is verse 98.\n"
-    assert_equal expected, CountdownSong.new.verses(99, 98)
+    assert_equal expected, CountdownSong.new(verse_template: VerseFake).verses(99, 98)
   end
 
   def test_a_couple_verses
