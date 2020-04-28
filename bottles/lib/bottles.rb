@@ -18,6 +18,7 @@ class Bottles
   end
 end
 
+
 class BottleVerse
   def self.lyrics(number)
     new(BottleNumber.for(number)).lyrics
