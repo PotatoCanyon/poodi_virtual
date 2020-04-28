@@ -18,6 +18,10 @@ class Phrases
     def initialize(orderer: OriginalOrderer.new)
       @data = orderer.order(DATA)
     end
+
+    def phrase(num)
+      data.last(num).join(" ")
+    end
 end
 
 
