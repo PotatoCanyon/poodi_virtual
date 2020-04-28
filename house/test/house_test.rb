@@ -51,6 +51,10 @@ class PhrasesTest < Minitest::Test
     expected   = "phrase 2a 2b phrase 3a 3b phrase 4a 4b"
     assert_equal expected, Phrases.new(input_data: input_data).phrase(3)
   end
+
+  def test_size
+    assert_equal 10, Phrases.new(input_data: ["a"] * 10).size
+  end
 end
 
 class HouseTest < Minitest::Test
