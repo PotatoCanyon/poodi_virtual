@@ -22,6 +22,10 @@ class Phrases
     def phrase(num)
       data.last(num).join(" ")
     end
+
+    def size
+      data.size
+    end
 end
 
 
@@ -34,7 +38,7 @@ class House
   end
 
   def recite
-    1.upto(12).collect {|i| line(i)}.join("\n")
+    1.upto(phrases.size).collect {|i| line(i)}.join("\n")
   end
 
   def phrase(num)
