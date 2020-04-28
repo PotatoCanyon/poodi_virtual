@@ -62,7 +62,26 @@ end
 class CumulativeTaleTest < Minitest::Test
   attr_reader :tale
   def setup
+    @data    = [["phrase 1a", "1b"], ["phrase 2a", "2b"], ["phrase 3a", "3b"], ["phrase 4a", "4b"]]
+    @phrases = Phrases.new(input_data: @data)
     @tale = CumulativeTale.new
+  end
+
+  def test_line
+    expected = "This is phrase 2a 2b phrase 3a 3b phrase 4a 4b.\n"
+    assert_equal expected, CumulativeTale.new(phrases: @phrases).line(3)
+  end
+
+  def test_recite
+    expected =
+      "This is phrase 4a 4b.\n" +
+      "\n" +
+      "This is phrase 3a 3b phrase 4a 4b.\n" +
+      "\n" +
+      "This is phrase 2a 2b phrase 3a 3b phrase 4a 4b.\n" +
+      "\n" +
+      "This is phrase 1a 1b phrase 2a 2b phrase 3a 3b phrase 4a 4b.\n"
+    assert_equal expected, CumulativeTale.new(phrases: @phrases).recite
   end
 
   def test_line_1
