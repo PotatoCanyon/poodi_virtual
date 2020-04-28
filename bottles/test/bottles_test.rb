@@ -70,6 +70,20 @@ class CountdownSongTest < Minitest::Test
   end
 
   def test_the_whole_song
+    expected =
+      "This is verse 23.\n" +
+      "\n" +
+      "This is verse 22.\n" +
+      "\n" +
+      "This is verse 21.\n" +
+      "\n" +
+      "This is verse 20.\n" +
+      "\n" +
+      "This is verse 19.\n"
+    assert_equal expected, CountdownSong.new.song
+  end
+
+  def test_the_whole_song
     expected = <<~SONG
       99 bottles of beer on the wall, 99 bottles of beer.
       Take one down and pass it around, 98 bottles of beer on the wall.
