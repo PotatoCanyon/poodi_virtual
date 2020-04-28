@@ -20,14 +20,6 @@ end
 
 
 class BottleVerse
-  # def self.for(number)
-  #   new(BottleNumber.for(number))
-  # end
-
-  # def self.lyrics(number)
-  #   self.for(number).lyrics
-  # end
-
   def self.lyrics(number)
     new(BottleNumber.for(number)).lyrics
   end
