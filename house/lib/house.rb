@@ -35,9 +35,10 @@ class House
       "the rat that ate",
       "the malt that lay in",
       "the house that Jack built"]
-  attr_reader :data, :prefix
+  attr_reader :phrases, :data, :prefix
 
-  def initialize(orderer: OriginalOrderer.new, prefixer: MundanePrefixer.new)
+  def initialize(phrases: Phrases.new, orderer: OriginalOrderer.new, prefixer: MundanePrefixer.new)
+    @phrases = phrases
     @data = orderer.order(DATA)
     @prefix = prefixer.prefix
   end
@@ -46,7 +47,7 @@ class House
     1.upto(12).collect {|i| line(i)}.join("\n")
   end
 
-  def phrase(num=1)
+  def phrase(num)
     data.last(num).join(" ")
   end
 
