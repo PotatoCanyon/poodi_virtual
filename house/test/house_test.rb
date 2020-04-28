@@ -59,10 +59,10 @@ class PhrasesTest < Minitest::Test
 end
 
 
-class HouseTest < Minitest::Test
+class CumulativeTaleTest < Minitest::Test
   attr_reader :tale
   def setup
-    @tale = House.new
+    @tale = CumulativeTale.new
   end
 
   def test_line_1
