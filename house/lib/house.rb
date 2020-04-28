@@ -1,15 +1,3 @@
-
-# Escalation #2:
-#  The trailing 'that' in each line below separates
-#  the actor
-#    'the horse and the hound and the horn' or
-#    'the rooster that crowed in the morn'
-#  the action
-#     'that belonged to'
-#     'that woke'
-#
-# Create another variant that randomly mixes actors and actions.
-# Thus, 'the priest all shaven and shorn' 'the killed', etc.
 class House
   DATA =
     [ "the horse and the hound and the horn that belonged to",
