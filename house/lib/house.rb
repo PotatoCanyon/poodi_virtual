@@ -29,7 +29,7 @@ class Phrases
 end
 
 
-class House
+class CumulativeTale
   attr_reader :phrases, :prefix
 
   def initialize(phrases: Phrases.new, prefixer: MundanePrefixer.new)
@@ -89,4 +89,4 @@ class MundanePrefixer
 end
 
 
-puts House.new(phrases: Phrases.new(orderer: MixedColumnOrderer.new)).line(12)
+puts CumulativeTale.new(phrases: Phrases.new(orderer: MixedColumnOrderer.new)).line(12)
