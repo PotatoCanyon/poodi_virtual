@@ -29,6 +29,16 @@ class RandomButLastOrdererTest < Minitest::Test
   end
 end
 
+class MixedColumnOrdererTest < Minitest::Test
+  def test_order
+    Random.srand(1)
+    input    = [["a1", "a2"], ["b1", "b2"], ["c1", "c2"], ["d1", "d2"], ["e1", "e2"]]
+    expected = []
+    assert_equal expected, MixedColumnOrderer.new.order(input)
+    Random.srand
+  end
+end
+
 class HouseTest < Minitest::Test
   attr_reader :tale
   def setup
