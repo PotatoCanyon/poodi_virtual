@@ -9,6 +9,16 @@ class OriginalOrderTest < Minitest::Test
   end
 end
 
+class RandomOrdererTest < Minitest::Test
+  def test_order
+    Random.srand(1)
+    input    = ["a", "b", "c", "d", "e"]
+    expected = ["c", "b", "e", "a", "d"]
+    assert_equal expected, RandomOrderer.new.order(input)
+    Random.srand
+  end
+end
+
 class HouseTest < Minitest::Test
   attr_reader :tale
   def setup
