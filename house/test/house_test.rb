@@ -1,6 +1,14 @@
 require_relative '../../test_helper'
 require_relative '../lib/house'
 
+class OriginalOrderTest < Minitest::Test
+  def test_order
+    input = ["a", "b", "c", "d", "e"]
+    expected = input
+    assert_equal expected, OriginalOrderer.new.order(input)
+  end
+end
+
 class HouseTest < Minitest::Test
   attr_reader :tale
   def setup
