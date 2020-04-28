@@ -35,7 +35,7 @@ class Phrases
     end
 
     def phrase(num)
-      data.last(num).join(" ")
+      data.last(num).flatten.compact.join(" ")
     end
 
     def size
